@@ -14,7 +14,7 @@
   .header {
     padding: 60px;
     text-align:center;
-    background-image: url(/img/logo_spiderman.jpg);
+    background-image: url("../img/logo_spiderman.jpg");
     background-size:cover;
     background-position: center;
     /* background: #2eb7d5; */
