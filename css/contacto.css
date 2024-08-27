@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+  
+  /* Estilo superior de navegacion */
+  .navbar {
+    display: flex; 
+   background-color: #333;
+ }
+ 
+ /* Estilo de la navegacion de enlaces */
+ .navbar a {
+   color: white;
+   padding: 14px 20px;
+   text-decoration:none ;
+   text-align: center;
+ }
+ 
+ /* Cambiar el color del fondo al mover el mouse por 
+ los enlaces */
+ .navbar a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/img/fd230f30fe47d1b928a598ecd585d27b.jpg);
+    background-size:cover;
+    margin:0;
+    padding: 0;
+    /*display: flex;*/
+    /*justify-content: center;*/
+   /* align-items: center;*/
+    height: 100vh;
+    
+}
+
+.contact-form {
+  justify-content: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1d11cc;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #7e1a1a;
+}
+
+
+
+/* Estilo del Footer */
+  .footer {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.footer-section {
+    max-width: 300px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-section p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}

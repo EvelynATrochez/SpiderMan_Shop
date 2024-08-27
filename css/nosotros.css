@@ -1,0 +1,140 @@
+* {
+    
+    box-sizing: border-box;
+    
+  }
+  
+  /* Estilo de la etiqueta body */
+  .body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+
+  }
+  
+  /* Header/Imagen titulo */
+  .header {
+    padding: 60px;
+    text-align:center;
+    background-image: url(/img/logo_spiderman.jpg);
+    background-size:cover;
+    background-position: center;
+    /* background: #2eb7d5; */
+    color: white;
+  }
+  
+  /* Estilo superior de navegacion */
+  .navbar {
+     display: flex; 
+    background-color: #333;
+  }
+  
+  /* Estilo de la navegacion de enlaces */
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration:none ;
+    text-align: center;
+  }
+  
+  /* Cambiar el color del fondo al mover el mouse por 
+  los enlaces */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+   
+}
+
+.mision-vision-contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.mision, .vision {
+    width: 48%;
+}
+
+.mision h2, .vision h2 {
+    color: #d32f2f;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.mision p, .vision p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.mision:hover, .vision:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    background-color:darkgrey;
+  
+}
+
+.nosotros {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.nosotros h2 {
+    color: #d32f2f;
+    margin-bottom: 15px;
+}
+
+.nosotros p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.ubicacion {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ubicacion h2 {
+    color: #d32f2f;
+    margin-bottom: 15px;
+}
+
+.ubicacion p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.footer {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.footer-section {
+    max-width: 300px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-section p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
